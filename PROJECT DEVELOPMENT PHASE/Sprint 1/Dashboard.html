@@ -1,0 +1,55 @@
+<html>
+<title>Job Recommender</title>
+<head>
+<style>
+body {
+  background-image: url('image_1.jfif');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+</style>
+<center><b><u><h1>DASH BOARD</h1></b></u></center>
+</head>
+<br>
+<body>
+<hr style="height:10px">
+<marquee>Current Job Offers.... Apply soon</marquee>
+<hr style="height:10px">
+<center>
+<br>
+
+ <div class="job1">
+                    <span class="text"><b><h2>Digital Marketer JOB</h2> </b>
+                        <a href="JOB_Details_1.html" class="text signup-link">Click here</a>
+                    </span>
+                </div>
+<br>
+<div class="job2">
+                    <span class="text"><b><h2>Back-End Developer JOB</h2> </b>
+                        <a href="JOB_Details_2.html" class="text signup-link">Click here</a>
+                    </span>
+                </div>
+<br>
+<div class="job3">
+                    <span class="text"><b><h2>SQL Developer JOB</h2></b>
+                        <a href="JOB_Details_3.html" class="text signup-link">Click here</a>
+                    </span>
+                </div>
+	<script src="script.js"></script>
+    <script>
+        window.watsonAssistantChatOptions = {
+          integrationID: "65c01ed6-9fc1-4883-979a-3676279ebe44", // The ID of this integration.
+          region: "us-south", // The region your integration is hosted in.
+          serviceInstanceID: "8fcd017f-a192-420a-aafc-18cb0330efca", // The ID of your service instance.
+          onLoad: function(instance) { instance.render(); }
+        };
+        setTimeout(function(){
+          const t=document.createElement('script');
+          t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+          document.head.appendChild(t);
+        });
+      </script>
+</center>
+</body>
+</html>
